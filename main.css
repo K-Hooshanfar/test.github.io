@@ -1,6 +1,6 @@
 body {
   background: #0f4d8f;
-  cursor: pointer;
+  cursor: url('images/mouse-cursor.png') 10 5, auto;
 }
 
 .nyan{
