@@ -1,7 +1,11 @@
-body {
-  background: #0f4d8f;
+body, * {
   cursor: url('images/mouse-cursor.png'), auto;
 }
+
+body {
+  background: #0f4d8f;
+}
+
 
 .nyan{
   z-index:10;
