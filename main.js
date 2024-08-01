@@ -88,15 +88,6 @@ window.setInterval(function(){
     frame++;
 }, 100);
 
-// Automatic scrolling function
-function autoScroll() {
-    let scrollTop = $(window).scrollTop();
-    $(window).scrollTop(scrollTop + 1); // Adjust the number to change the speed
-}
-
-// Set an interval to scroll automatically
-window.setInterval(autoScroll, 50); // Adjust the interval to change the speed
-
 // Smooth scroll to section on link click
 $('a[href^="#"]').on('click', function(event) {
     event.preventDefault();
