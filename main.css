@@ -345,6 +345,7 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+  position: relative; /* Makes sure that absolute positioning of children is relative to this */
   display: flex;
   align-items: center;
   text-align: center;
@@ -359,6 +360,7 @@ h6 {
   align-items: center; /* Center content horizontally */
   justify-content: center; /* Center content vertically */
   text-align: center; /* Ensure text is centered */
+  z-index: 20; /* Higher z-index than the cat */
 }
 
 #hero:before {
@@ -401,6 +403,7 @@ h6 {
 #hero .social-links a {
   font-size: 2rem; /* Larger social icons */
   display: inline-block;
+  font-size: 36px; /* Increase the font size for larger icons */
 
   vertical-align: middle; /* Aligns icons vertically in the middle */
 
