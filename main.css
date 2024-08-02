@@ -26,3 +26,39 @@ body {
   color: white;
   text-align: center;
 }
+
+/* Footer Styling */
+#footer {
+    background: white; /* New background color */
+    color: #0f4d8f; /* New font color */
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#footer h3 {
+    font-size: 28px; /* Adjust size as necessary */
+    margin-bottom: 10px; /* Spacing below the name */
+}
+
+.social-links a {
+  font-size: 36px; /* Increase the font size for larger icons */
+  margin: 0 20px; /* Increase spacing between icons */
+  display: inline-block; /* Ensures icons are aligned correctly */
+  vertical-align: middle; /* Aligns icons vertically in the middle */
+}
+
+.social-links a {
+    cursor: pointer;     /* Ensures the cursor indicates a clickable link */
+    z-index: 101;        /* Ensures links are above the footer's base layer */
+    position: relative;  /* Allows z-index within local context */
+    color: #0f4d8f; /* Update icon color */
+    margin: 0 10px; /* Space between icons */
+    display: inline-block;
+    font-size: 24px; /* Icon size */
+}
+
+.social-links a:hover {
+    color: #aad8ff; /* Lighter blue on hover */
+    text-decoration: none; /* No underline on hover */
+}
