@@ -1279,37 +1279,50 @@ section {
 
 
 .edu-exp-section {
+  z-index: 101;
   padding: 60px 0;
   background-color: white;
   color: #0563bb;
 }
 
 .edu-exp-section h3 {
+  position: relative;
+  z-index: 101;
   margin-top: 30px;
   margin-bottom: 20px;
   color: #0563bb;
 }
 
 .edu-exp-section ul {
+  z-index: 101;
+  position: relative;
   list-style-type: none;
   padding-left: 0;
 }
 
 .edu-exp-section li {
+  z-index: 101;
+  position: relative;
   margin-bottom: 10px;
 }
 
 .edu-exp-section .bi-chevron-right {
+  z-index: 101;
+  position: relative;
   margin-right: 5px;
   color: #0563bb;
 }
 
 .edu-exp-section a {
+  z-index: 101;
+  position: relative;
   color: #0563bb;
   text-decoration: none;
 }
 
 .edu-exp-section a:hover {
+  z-index: 101;
+  position: relative;
   text-decoration: underline;
 }
 
