@@ -583,63 +583,86 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .resume-title {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #45505b;
-}
-
-.resume .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid #0563bb;
+.section-title {
+  text-align: center;
   position: relative;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
 }
 
-.resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #0563bb;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item h5 {
-  font-size: 16px;
-  background: #f7f8f9;
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item ul {
-  padding-left: 20px;
-}
-
-.resume .resume-item ul li {
-  padding-bottom: 10px;
-}
-
-.resume .resume-item:last-child {
-  padding-bottom: 0;
-}
-
-.resume .resume-item::before {
-  content: "";
+.section-title::after {
+  content: '';
   position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #0563bb;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;  /* Adjust width of the line */
+  height: 3px;  /* Adjust thickness of the line */
+  background-color: white;  /* The blue color of the line */
 }
+
+#publications {
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+#publications h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.publications-list {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin: 0;
+}
+
+.publications-list li {
+  margin-bottom: 30px;
+}
+
+.publication-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.authors {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 4px;
+}
+
+.publication-venue {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.links {
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.links a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #aad8ff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #ffffff; /* White when hovered */
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
